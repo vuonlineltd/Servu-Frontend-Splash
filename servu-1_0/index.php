@@ -20,11 +20,11 @@
       }
       body {
         background-color:#FF6961;
+        font-family: 'servu-webfont';
       }
       h1 {
         text-align: center;
         width:100%;
-        font-family: 'servu-webfont';
         font-weight:100;
         font-size:100px;
       }
@@ -34,13 +34,13 @@
         left: 0;
         right:0;
         text-align: center;
-        font-size: 10px;
+        font-size: 11px;
       }
     </style>
   </head>
   <body>
     <h1 id="h1">This is Servu.</h1>
-    <p>&copy;<?php echo date("Y"); ?> VuOnline Ltd.</p>
+    <p>&copy; <?php echo date("Y"); ?> VuOnline Ltd.</p>
     <script type="text/javascript">
       (function(){document.getElementById('h1').style.margin = window.innerHeight/2 - document.getElementById('h1').clientHeight/2 + 'px 0 0 0';})();
     </script>
