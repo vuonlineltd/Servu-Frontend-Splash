@@ -3,46 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>This is Servu.</title>
-    <style>
-    @font-face {
-        font-family: 'servu-webfont';
-        src: url('servu-webfont.eot');
-        src: url('servu-webfont.eot?#iefix') format('embedded-opentype'),
-             url('servu-webfont.woff2') format('woff2'),
-             url('servu-webfont.woff') format('woff'),
-             url('servu-webfont.ttf') format('truetype'),
-             url('servu-webfont.svg#brandon_grotesquelight') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-      *{
-        color: white;
-      }
-      body {
-        background-color:#FF6961;
-        font-family: 'servu-webfont';
-      }
-      h1 {
-        text-align: center;
-        width:100%;
-        font-weight:100;
-        font-size:100px;
-        opacity: 0;
-      }
-      p {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right:0;
-        text-align: center;
-        font-size: 11px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" media="screen" title="style" charset="utf-8">
   </head>
   <body>
     <h1 id="h1">This is Servu.</h1>
-    <script type="text/javascript">
-      (function(){var el=document.getElementById('h1');el.style.margin = window.innerHeight/2 - el.clientHeight/2 + 'px 0 0 0';el.delay(1000).animate({ opacity: 1 }, 700);​})();
-    </script>
+    <script type="text/javascript" src="splash.js" charset="utf-8"></script>
   </body>
 </html>
