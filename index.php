@@ -27,6 +27,7 @@
         width:100%;
         font-weight:100;
         font-size:100px;
+        opacity:0;
       }
       p {
         position: absolute;
@@ -42,7 +43,7 @@
     <h1 id="h1">This is Servu.</h1>
     <p>&copy; <?php echo date("Y"); ?> VuOnline Ltd.</p>
     <script type="text/javascript">
-      (function(){document.getElementById('h1').style.margin = window.innerHeight/2 - document.getElementById('h1').clientHeight/2 + 'px 0 0 0';})();
+      (function(){var el=document.getElementById('h1');el.style.margin = window.innerHeight/2 - el.clientHeight/2 + 'px 0 0 0';el.delay(1000).animate({ opacity: 1 }, 700);​})();
     </script>
   </body>
 </html>
